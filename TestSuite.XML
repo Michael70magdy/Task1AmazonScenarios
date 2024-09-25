@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Test Suite" verbose="1">
+
+    <test name="Amazon Tests">
+        <classes>
+
+            <class name="FirstScenario_POM.AmazonTest"/>
+            <class name="SecondScenario_POM.AmazonTest2"/>
+        </classes>
+    </test>
+
+</suite>
